@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    justify-items: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.hero {
+    background-image: url('https://media.istockphoto.com/id/1310950895/id/foto/biji-kopi-di-latar-belakang-batu-dengan-ruang-fotokopi-untuk-teks-anda.jpg?s=612x612&w=0&k=20&c=oSN-Hl9QuJBDWX3OVa6B1mv1JWPOonYfepdd99FmLv8=');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-image: url(https://media.istockphoto.com/id/1437462549/id/foto/meja-kayu-kosong-atas-dengan-bokeh-lampu-pada-latar-belakang-restoran-blur.jpg?s=612x612&w=0&k=20&c=2scgyaWh3s8CJxO69IrEKdTgCHmk-WgKl5ortdHeBAA=);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.menu h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.menu-item {
+    flex: 1;
+    padding: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about {
+    background-color: #F4A460;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.contact {
+    background-image: url(https://media.istockphoto.com/id/1437462549/id/foto/meja-kayu-kosong-atas-dengan-bokeh-lampu-pada-latar-belakang-restoran-blur.jpg?s=612x612&w=0&k=20&c=2scgyaWh3s8CJxO69IrEKdTgCHmk-WgKl5ortdHeBAA=);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff;
+    padding: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #F4A460;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
